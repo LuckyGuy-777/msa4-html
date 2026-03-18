@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, td, th {
+      border: 1px solid #ccc;
+    }
+    td, th {
+      padding: 10px 20px;
+    }
+    td:last-child {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 캡션은, 테이블의 제목을 표현할수 있음. h1 이라던지 추가로 줄수 있음.-->
+
+  <table>
+
+    <caption><h1>수습 국원 지원 양식</h1></caption>
+    <tbody>
+      <tr>
+        <th style rowspan="3">개인정보</th>
+        <th>이름</th>
+  
+        <td></td>
+
+      </tr>
+      <tr>
+      
+        <th>학과/학번</th>
+        <!-- <td></td> -->
+        <td></td>
+      </tr>
+      <tr>
+      
+        <th>연락처</th>
+        <!-- <td></td> -->
+        <td></td>
+      </tr>
+      <tr>
+        <th>지원분야</th>
+        <!-- <td></td> -->
+        <td style colspan="2"></td>
+        <!-- <td></td> -->
+
+      </tr>
+    </tbody>
+
+
+  </table>
+</body>
+</html>
